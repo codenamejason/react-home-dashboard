@@ -31,7 +31,7 @@ export class CountdownWidget extends React.Component {
   render() {
     return (
       <div className="widget countdown">
-        <div className="heading">Christmas Party</div>
+        <div className="heading">Christmas</div>
         <div className="count">{this.state.count}</div>
         <div className="meta">Days</div>
       </div>

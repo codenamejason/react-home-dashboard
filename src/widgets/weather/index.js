@@ -1,7 +1,7 @@
 import React from "react";
 
 const request = require("request");
-const OPEN_WEATHER_API = "0850dbc6e280e2c583c7bb77d5605e98"; //get Openweather api from https://openweathermap.org/api
+const OPEN_WEATHER_API = ""; //get Openweather api from https://openweathermap.org/api
 const getWeather = () => {
   return new Promise((resolve, reject) => {
     const request_url = `http://api.openweathermap.org/data/2.5/forecast?q=Jacksonville&APPID=${OPEN_WEATHER_API}`;
